@@ -8,6 +8,10 @@ gem 'pg'
 # Use sqlite3 as the database for Active Record
 # gem 'sqlite3'
 # Use SCSS for stylesheets
+# --- added to get Heroku deploy to work
+gem 'rails_12factor', group: :production
+gem ruby '1.9.3'
+# ---
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
