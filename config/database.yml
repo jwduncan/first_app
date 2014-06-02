@@ -9,6 +9,8 @@ default: &default
 development:
   <<: *default
   database: myapp_development
+  user: myapp
+  password: password1
 
 
 # Warning: The database defined as "test" will be erased and
